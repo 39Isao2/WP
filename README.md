@@ -34,15 +34,14 @@
 <br>
 サイト名を入力します。(今回は仮でauarium)
 <br>
-↓
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="500px">
 <br>
+ユーザー名、パスワードを入力します。
 <br>
-↓
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="500px">
 <br>
+ユーザー名、パスワードを入力します。
 <br>
-↓
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="500px">
 <br>
 <br>
