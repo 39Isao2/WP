@@ -12,7 +12,7 @@
     ・HTMLを知らなくても多少はページの内容変更可能
     ・「プラグイン」という便利機能が色々！ さくっとお問い合わせフォーム等が作成可能など (Contact Form 7など)
 
-管理画面から操作する
+管理画面からHTMLを触らずにサイトの内容を操作可能
 
 <img src="http://hareumi.com/githubWP/kanrigamen.jpg" width="500px">
 
@@ -22,72 +22,31 @@
 
 
 
-## 2-a、さくらサーバーにWordPressをクイックインストール
-WordPressを使用するには、サーバーにインストール(ファイルのアップとデータベースの作成)とテーマの適用が必要です。
-
-<img src="http://hareumi.com/githubWP/wp_zu.png" width="500px">
-
-(テーマとは？)
-HTML、CSS、JSで作ったサイト(静的サイトと呼びます)を.phpにしたファイルのかたまりです。
-
-コントロールパネルからログイン
-https://secure.sakura.ad.jp/rscontrol/
+## 2、local by flywheel を使用して環境構築
 
 
-
-
-<img src="http://hareumi.com/githubWP/db.png" width="800px">
-
-
-
-
-<img src="http://hareumi.com/githubWP/wp.png" width="800px">
-
-サイトのタイトル、管理画面のログインパスワードなどを入力します。
-
-<img src="http://hareumi.com/githubWP/wp_install1.jpg" width="800px">
-
-
-### WordPressにログイン
-
-http://~~~~~~~~~/wp-admin
-ユーザー名またはメールアドレス
-パスワード
-を入力して、ログインします。
-
-
-<img src="http://hareumi.com/githubWP/wp_install3.png" width="200px">
-
-## 2-b、local by flywheel を使用して環境構築
-
-
+### インストール手順
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp1.png" width="800px">
 <br>
 <br>
+サイト名を入力します。(今回は仮でauarium)
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="800px">
 <br>
 <br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="800px">
 <br>
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp4.png" width="300px">
-<br>
-<br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="800px">
 <br>
 <br>
+管理画面の言語を日本語に設定
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="800px">
 <br>
 <br>
+
+# テーマの適用
+今回はzip形式にして管理画面からアップロードします。（アップロード後に有効化をクリック）
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp7.png" width="800px">
-<br>
-<br>
-
-
-## 3、テーマの適用
-
-
-<img src="http://hareumi.com/githubWP/folder.png">
 
     
 ## 3、管理画面からニュースを投稿してみる
