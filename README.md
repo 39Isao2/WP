@@ -43,7 +43,8 @@
 <br><br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="500px">
 <br>
-管理画面の言語を日本語に設定<br>
+管理画面の言語を日本語に設定
+<br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="500px">
 <br>
 <br>
