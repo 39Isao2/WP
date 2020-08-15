@@ -61,19 +61,26 @@ http://~~~~~~~~~/wp-admin
 ## 2-b、local by flywheel を使用して環境構築
 
 
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp1.png" width="500px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp1.png" width="800px">
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="500px">
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="500px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="800px">
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp4.png" width="500px">
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="500px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="800px">
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="500px">
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp7.png" width="500px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp4.png" width="300px">
+<br>
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="800px">
+<br>
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="800px">
+<br>
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp7.png" width="800px">
+<br>
 <br>
 
 
@@ -87,7 +94,7 @@ http://~~~~~~~~~/wp-admin
 
 ### 左メニューの「投稿」 → 「新規追加」
 
-<img src="http://hareumi.com/githubWP/kanrigamen3.jpg" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wpsingle.png" width="800px">
 
 
 ### 表示する仕組みについて（WordPressループ）
@@ -163,18 +170,11 @@ http://~~~~~~~~~/wp-admin
 
 ### 左メニューの「固定ページ」 → 「新規追加」
 
-<img src="http://hareumi.com/githubWP/page-php.jpg" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wppage.png" width="800px">
 
-<img src="http://hareumi.com/githubWP/url.jpg" width="300px">
-
-ヘッダーのURLを書き換える。
-
-<img src="http://hareumi.com/githubWP/header.jpg" width="800px">
-
-    <a href="<?php echo site_url();?>/about/">>シュガーリングラボについて</a>
 
 ## 5、プラグインについて （Contact Form 7 でお問い合わせフォーム作成）
-プラグインとは？ 機能を拡張するためのツール！
+プラグインとは？ 機能を拡張するためのツール。
 
 <img src="http://hareumi.com/githubWP/ContactForm7.jpg" width="500px">
 
