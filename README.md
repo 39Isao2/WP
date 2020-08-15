@@ -61,6 +61,22 @@ http://~~~~~~~~~/wp-admin
 ## 2-b、local by flywheel を使用して環境構築
 
 
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp1.png" width="500px">
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="500px">
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="500px">
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp4.png" width="500px">
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="500px">
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="500px">
+<br>
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp7.png" width="500px">
+<br>
+
+
 ## 3、テーマの適用
 
 
@@ -74,7 +90,7 @@ http://~~~~~~~~~/wp-admin
 <img src="http://hareumi.com/githubWP/kanrigamen3.jpg" width="800px">
 
 
-表示する仕組みについて（WordPressループ）
+### 表示する仕組みについて（WordPressループ）
 
     <?php if (have_posts()) : ?>
 	<?php while (have_posts()) : the_post(); ?>
@@ -100,7 +116,7 @@ http://~~~~~~~~~/wp-admin
 
     
     
-cssで装飾できるようにカスタマイズ！！！
+### cssで装飾できるようにカスタマイズ！！！
 
 ```
 
