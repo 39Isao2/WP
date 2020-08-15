@@ -26,37 +26,44 @@
 
 
 ### インストール手順
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp1.png" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp1.png" width="500px">
 <br>
 <br>
 サイト名を入力します。(今回は仮でauarium)
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="500px">
 <br>
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="500px">
 <br>
 <br>
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="500px">
 <br>
 <br>
 管理画面の言語を日本語に設定
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="500px">
 <br>
 <br>
 
 # テーマの適用
 今回はzip形式にして管理画面からアップロードします。（アップロード後に有効化をクリック）
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp7.png" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wp7.png" width="500px">
 
     
 ## 3、管理画面からニュースを投稿してみる
 
 ### 左メニューの「投稿」 → 「新規追加」
 
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wpsingle.png" width="800px">
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wpsingle.png" width="500px">
 
 
-### 表示する仕組みについて（WordPressループ）
+## 4、固定ページを作成してみる
+左メニューの「固定ページ」 → 「新規追加」
+
+<img src="https://github.com/55Kaerukun/WP/blob/master/images/wppage.png" width="800px">
+
+
+
+### 表示する仕組みについて（WordPressループについて）
 
     <?php if (have_posts()) : ?>
 	<?php while (have_posts()) : the_post(); ?>
@@ -124,12 +131,6 @@
     
 ```
 
-## 4、固定ページの作成。ページの内容の変更してみる
-固定ページの作成 page.php
-
-### 左メニューの「固定ページ」 → 「新規追加」
-
-<img src="https://github.com/55Kaerukun/WP/blob/master/images/wppage.png" width="800px">
 
 
 ## 5、プラグインについて （Contact Form 7 でお問い合わせフォーム作成）
@@ -151,20 +152,23 @@
 
 フォーム完成！
 
-
-contact form 7 効果的な使い方
-https://bazubu.com/contact-form-7-23869.html
+## その他のプラグイン紹介 
 
 
-WP-PageNaviの使い方
-https://techacademy.jp/magazine/7391
-
-
-
-バックアップ
+・本番環境に引越しの時に便利！
 All-in-One WP Migration
 https://restinpeace.jp/allinone-wp-migration/
 
-local-by-flywheel
-https://kumaweb-d.com/web/local-by-flywheel-howto/
+・確認画面のあるお問い合わせ
+MW WP Form
+https://newstd.net/user_manual/mwwpform
+
+・SEO対策に
+All in One SEO Pack
+https://bazubu.com/all-in-one-seo-pack-23836.html
+
+・カスタムフィールドを柔軟に使える
+Advanced Custom Fields
+https://bazubu.com/advanced-custom-fields-36452.html
+
 
