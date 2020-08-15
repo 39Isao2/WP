@@ -90,8 +90,8 @@ http://~~~~~~~~~/wp-admin
 	    
         </a>
 
-        <!-- 投稿内容 -->
-        <?php the_content(); ?>
+        <!-- 投稿内容の抜粋 -->
+        <?php the_excerpt(); ?>
 		
 	<?php endwhile; ?>
     <?php else : ?>
@@ -100,30 +100,48 @@ http://~~~~~~~~~/wp-admin
 
     
     
-今回のテーマのtable部分に使える用にカスタマイズ！！！
+cssで装飾できるようにカスタマイズ！！！
 
-    <table class="text-center">
-    <thead>
-    <tr>
-        <td>イベント名</td>
-        <td>空席状況</td>
-        <th>エリア</th>
-        <th>日程 場所</th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php if (have_posts()) : ?>
-    <?php while (have_posts()) : the_post(); ?>
-    <tr>
-        <td><?php the_title(); ?></td>
-        <td><span class="manseki"><?php the_tags(''); ?></span></td>
-        <td><?php the_category(); ?></td>
-        <td><?php the_content(); ?></td>
-    </tr>
-    <?php endwhile; ?>
-    <?php endif; ?>
-    </tbody>
-    </table>
+```
+
+<!-- メインループ -->
+<ul class="block-three">
+<?php if (have_posts()) : ?>
+<?php while (have_posts()) : the_post(); ?>
+<li>
+
+	<!-- 投稿のリンク先 -->
+	<a href="<?php the_permalink() ?>">
+
+		<!-- サムネイルの表示 -->
+		<?php the_post_thumbnail();?>
+
+		<!-- 投稿日時 -->
+		<span class="date">
+			<?php the_time('Y年m月d日') ?>
+		</span>
+
+		<!-- 投稿タイトル -->
+		<h2 class="blog_title">
+		    <?php the_title(); ?>
+		</h2>
+
+	</a>
+
+	<!-- 投稿内容の抜粋 -->
+	<?php the_excerpt(); ?>
+</li>
+
+<?php endwhile; ?>
+<?php else : ?>
+	<p>投稿が見つかりませんでした。</p>
+<?php endif; ?>
+</ul>
+<!-- /メインループ -->
+    
+    
+```
+
 ## 4、固定ページの作成。ページの内容の変更してみる
 固定ページの作成 page.php
 
