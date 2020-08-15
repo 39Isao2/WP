@@ -20,7 +20,10 @@
 
 <img src="http://hareumi.com/githubWP/kanrigamen3.jpg" width="500px">
 
-
+<br>
+<br>
+<br>
+<br>
 
 ## 2、local by flywheel を使用して環境構築
 
@@ -30,16 +33,23 @@
 <br>
 <br>
 サイト名を入力します。(今回は仮でauarium)
+<br>
+↓
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="500px">
 <br>
 <br>
+↓
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="500px">
 <br>
 <br>
+↓
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="500px">
 <br>
 <br>
+↓
 管理画面の言語を日本語に設定
+<br>
+↓
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="500px">
 <br>
 <br>
@@ -93,14 +103,13 @@
 
 ```
 
-<!-- メインループ -->
-<ul class="block-three">
-<?php if (have_posts()) : ?>
-<?php while (have_posts()) : the_post(); ?>
-<li>
-
-	<!-- 投稿のリンク先 -->
-	<a href="<?php the_permalink() ?>">
+    <!-- メインループ -->
+    <ul class="block-three">
+    <?php if (have_posts()) : ?>
+        <?php while (have_posts()) : the_post(); ?>
+        <li>
+	    <!-- 投稿のリンク先 -->
+	    <a href="<?php the_permalink() ?>">
 
 		<!-- サムネイルの表示 -->
 		<?php the_post_thumbnail();?>
@@ -114,21 +123,18 @@
 		<h2 class="blog_title">
 		    <?php the_title(); ?>
 		</h2>
+	    </a>
+	    <!-- 投稿内容の抜粋 -->
+	    <?php the_excerpt(); ?>
+        </li>
 
-	</a>
-
-	<!-- 投稿内容の抜粋 -->
-	<?php the_excerpt(); ?>
-</li>
-
-<?php endwhile; ?>
-<?php else : ?>
+      <?php endwhile; ?>
+      <?php else : ?>
 	<p>投稿が見つかりませんでした。</p>
-<?php endif; ?>
-</ul>
+    <?php endif; ?>
+    </ul>
 <!-- /メインループ -->
-    
-    
+     
 ```
 
 
