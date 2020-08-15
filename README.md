@@ -63,30 +63,11 @@ http://~~~~~~~~~/wp-admin
 
 ## 3、テーマの適用
 
-FTPソフトでテーマファイルをアップします。
-
-超初心者向け！FileZilla（ファイルジラ）の使い方
-https://techacademy.jp/magazine/2447
-    
-■ホスト   
-
-FTPサーバ名     ： -----------.sakura.ne.jp
-
-■ユーザー名
-
-FTPアカウント   ： ------------
-
-■パスワード
-
-サーバパスワード： ------------
 
 <img src="http://hareumi.com/githubWP/folder.png">
 
     
 ## 3、管理画面からニュースを投稿してみる
------------.sakura.ne.jp/wp/wp-admin
-
-管理画面からニュースを投稿する方法 single.php
 
 ### 左メニューの「投稿」 → 「新規追加」
 
