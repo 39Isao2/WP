@@ -32,24 +32,24 @@
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp1.png" width="500px">
 <br>
 サイト名を入力します。(今回は仮でauarium)
-<br>
+<br><br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp2.png" width="500px">
 <br>
 ユーザー名、パスワードを入力します。
-<br>
+<br><br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp3.png" width="500px">
 <br>
 インストール完了
-<br>
+<br><br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp5.png" width="500px">
 <br>
-管理画面の言語を日本語に設定
+管理画面の言語を日本語に設定<br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp6.png" width="500px">
 <br>
 <br>
 
 # テーマの適用
-今回はzip形式にして管理画面からアップロードします。（アップロード後に有効化をクリック）
+今回はzip形式にして管理画面からアップロードします。（アップロード後に有効化をクリック）<br><br>
 <img src="https://github.com/55Kaerukun/WP/blob/master/images/wp7.png" width="500px">
 
     
